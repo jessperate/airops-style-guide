@@ -95,6 +95,11 @@ p, li, span {
   font-family: var(--font-mono);
 }
 
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Sharp corners everywhere */
 * {
   border-radius: 0 !important;
