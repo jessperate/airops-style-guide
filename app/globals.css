@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Saans';
+  src: url('/fonts/Saans-Regular.woff2') format('woff2'),
+       url('/fonts/Saans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Saans';
+  src: url('/fonts/Saans-Medium.woff2') format('woff2'),
+       url('/fonts/Saans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Saans';
+  src: url('/fonts/Saans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Saans';
+  src: url('/fonts/Saans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Saans Mono';
+  src: url('/fonts/SaansMono-Medium.woff2') format('woff2'),
+       url('/fonts/SaansMono-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Serrif';
+  src: url('/fonts/SerrifVF.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --primary: #00FF64;
+  --primary-hover: #00cc50;
+  --muted: #f5f5f5;
+  --muted-foreground: #333333;
+  --border: #e5e5e5;
+
+  --font-sans: 'Saans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Saans Mono', monospace;
+  --font-serif: 'Serrif', Georgia, serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+h1 {
+  font-family: var(--font-serif) !important;
+  font-weight: 500;
+  color: #000000;
+}
+
+h2 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  color: #000000;
+}
+
+h3 {
+  color: #000000;
+}
+
+p, li, span {
+  color: #000000;
+}
+
+.pill-text {
+  font-family: var(--font-mono);
+}
+
+/* Sharp corners everywhere */
+* {
+  border-radius: 0 !important;
+}
