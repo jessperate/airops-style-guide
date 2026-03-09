@@ -917,14 +917,6 @@ export default function StyleGuidePage() {
             <div className="hero-tag">AirOps Brand System</div>
             <h1>Build on<br /><em>brand,</em><br />every time.</h1>
             <p className="hero-sub">Everything you need to ship pages, apps, and campaigns that look unmistakably AirOps. Copy the code. Follow the rules. Ship it.</p>
-            <div className="hero-download">
-              <a href="/airops-brand-skill-files.zip" download className="hero-download-btn">
-                <span>↓</span>
-                <span>Download Skill Files</span>
-              </a>
-              <p className="hero-download-helper">Download this zip and upload into your Claude skills environment</p>
-              <p className="hero-download-helper" style={{ marginTop: '6px', opacity: 0.55, fontSize: '11px' }}>Restricted: AirOps employees and licensed users only.</p>
-            </div>
           </div>
 
           {/* 01 COLORS */}
